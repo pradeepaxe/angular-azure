@@ -51,6 +51,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'hello-world-app-1'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_083b52079a244278b1cd1729f226e039 }}
-        package: .
+        publish-profile: $
+        package: ./dist/ang-az
